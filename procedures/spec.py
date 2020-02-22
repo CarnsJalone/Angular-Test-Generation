@@ -44,9 +44,10 @@ def generateSpecFile(pathToComponentFile: str, tsFileName: str, className: str):
                     continue
 
                 if 'INSERT_CLASS' in line:
-                    print(line)
+                   line = line.replace('INSERT_CLASS', className)
+                   outSpecFile.write(line)
+                   continue
                 
-
                 else:
                     outSpecFile.write(line)
     

@@ -1,0 +1,9 @@
+{
+    "decorators" : {
+        "component" : "@Component"
+    },
+    "fileOptions" : {
+        "rootDir" : "D:/Programming/Projects/BASF/FRONT_END",
+        "targetFileName" : "slider-paintline.component.ts"
+    }
+}
